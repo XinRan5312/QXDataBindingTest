@@ -1,0 +1,50 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <!--用到什么类就要事先用import导包，就跟在类中写代码一样，比如下面我们用到Student和View类，所以
+        我们要首先导包，DataBinding用variable来定义变量 属性包裹变量名字和其类型，比如下面的stu和isQx变量
+        ，另外这里定义的变量就成为使用类的Binding类的变量，我们可以在使用类里通过binding.setXX来给他们赋值，比如
+
+        ActivityAsimpleBinding binding= DataBindingUtil.setContentView(this, R.layout.activity_asimple);
+        Student stu=new Student(null,"Mack",18);
+        binding.setStu(stu);
+        binding.setIsQx(true);
+        从而达到使用类和对应布局数据的绑定
+
+        另外：
+          1，@{这里其实就是书写java代码的地方}
+          2，databinding语法中不但有?:三目运算，还有？？两目预算@{stu.name??stu.firstName}，如果
+          stu.name非null就是stu.name，否则就是stu.firstName
+        -->
+        <import type="com.xinran.qxdatabinding.beans.Student"></import>
+        <import type="android.view.View"></import>
+        <variable name="stu" type="Student"></variable>
+        <variable
+            name="isQx"
+            type="boolean"></variable>
+    </data>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@{stu.name??stu.firstName}"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="成年"
+        android:visibility="@{stu.age>18 ? View.VISIBLE : View.GONE}"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="上大学了"
+        android:visibility="@{isQx ? View.VISIBLE : View.GONE}"/>
+
+
+</LinearLayout>
+
+</layout>

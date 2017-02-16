@@ -1,0 +1,54 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <!--
+        在定义List或者Map泛型的时候&lt;表示文本泛型的开始最后还要加一个>表示泛型定义的结束，千万别忘了最后这个>要不然会报错的
+        -->
+        <import type="android.databinding.ObservableArrayList"></import>
+        <import type="android.databinding.ObservableArrayMap"></import>
+        <variable name="stuOne" type="com.xinran.qxdatabinding.beans.ObservableStudent"></variable>
+        <variable
+            name="stuoTo"
+            type="com.xinran.qxdatabinding.beans.ObservableStudentOther"></variable>
+        <variable
+            name="list"
+            type="ObservableArrayList&lt;String>"/>
+        <variable
+            name="map"
+            type="ObservableArrayMap&lt;String, String>"/>
+
+    </data>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:orientation="vertical">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@{@string/nameFormatWithAge(stuOne.name,stuOne.age,18)}"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@{@string/nameFormatWithAge(stuoTo.name,stuoTo.age,28)}"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@{list[1]}"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@{map['1']}"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="changeName"
+        android:text="Change"/>
+
+
+</LinearLayout>
+
+</layout>

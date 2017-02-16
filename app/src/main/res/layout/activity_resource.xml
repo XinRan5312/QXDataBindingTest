@@ -1,0 +1,51 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <!--
+        DataBinding语法对资源文件的使用其实就是把，原来的代码放入到@{}中就可以了，比如：
+        @{@plurals/banana(bananaCount)}//对数组的选择使用
+        @{@string/nameFormat(firstName,lastName)}//对string的使用
+        @{isBig?@dimen/text_big:@dimen/text_small}//对dimen数值的引用
+
+        -->
+       <variable
+           name="firstName"
+           type="String"></variable>
+        <variable
+            name="lastName"
+            type="String"></variable>
+        <variable
+            name="orangeCount"
+            type="int"></variable>
+        <variable
+            name="bananaCount"
+            type="int"></variable>
+        <variable
+            name="isBig"
+            type="boolean"></variable>
+    </data>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@{@string/nameFormat(firstName,lastName)}"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@{@plurals/banana(bananaCount)}" />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@{@plurals/orange(orangeCount,orangeCount)}"
+        android:textSize="@{isBig?@dimen/text_big:@dimen/text_small}"
+      />
+
+
+</LinearLayout>
+
+</layout>

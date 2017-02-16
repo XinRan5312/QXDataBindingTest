@@ -1,0 +1,47 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <data>
+        <!-- 在布局中include公共布局由于inclue布局中也有自己定义的DataBinding变量，该怎么关联上呢，还好DataBinding
+        为我们提供了bind标签，我们只需导入xmlns:bind="http://schemas.android.com/apk/res-auto"，然后我们就可以用
+        bind：Include不居中的变量名字=给他们赋的值，比如
+     <include
+     layout="@layout/layout_title_bar"
+     bind:stu="@{student}"
+     bind:isQx="@{isOk}"/>
+
+     就像我们引用android：标签赋值一样
+
+   -->
+        <import type="com.xinran.qxdatabinding.beans.Student"></import>
+        <variable
+            name="student"
+            type="Student"></variable>
+      <variable
+          name="name"
+          type="String"></variable>
+
+        <variable
+            name="isOk"
+            type="boolean"></variable>
+    </data>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:orientation="vertical">
+
+ <include
+     layout="@layout/layout_title_bar"
+     bind:stu="@{student}"
+     bind:isQx="@{isOk}"/>
+    <include
+        layout="@layout/layout_asimple"
+        bind:discript="@{name}" />
+    <include
+        android:id="@+id/input"
+        layout="@layout/layout_edit"/>
+</LinearLayout>
+
+</layout>

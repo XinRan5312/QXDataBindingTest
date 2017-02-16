@@ -1,0 +1,44 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <!--
+          <data>
+        如果每个view布局的时候设置了id，我们通过DataBindingUtil.setContentView(Actvity,布局Id)的时候
+        已经把Actvity跟它使用使用的布局关联起来，我们直接利用binding.id名字就可以直接找到对应的布局控件
+        注：名字生成规则：根据布局中的id命名的下划线为节点，自动生成驼峰式的名字，如本例tv_name对应tvName：
+
+       ActivityViewWithIdBinding binding= DataBindingUtil.setContentView(this, R.layout.activity_view_with_id);
+
+        binding.tvName.setText("Mack");
+        binding.tvAge.setText("22");
+        binding.tvName.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                binding.tvAge.setText("点击了TvName");
+            }
+        });
+            </data>
+        -->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_age"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/tv_name"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+</layout>

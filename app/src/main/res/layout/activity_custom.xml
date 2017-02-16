@@ -1,0 +1,39 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data class=".CustomBinding">
+      <variable
+          name="name"
+          type="String"></variable>
+        <variable
+            name="age"
+            type="String"></variable>
+        <!-- 我们自定义一个Binding的时候，就是不需要按照我们布局名字让DataBinding帮我们生成一个Binding时，我们
+        只需在data根标签添加class属性就好，用.开头后面跟自定义的类名字，比如 <data class=".CustomBinding">
+        另外：定义的变量类型一定要和真实需要类型相同，否则DataBinding回报notFind异常，比如TextView的text需要的是
+             String类型的数据，如果我们非要把age变量定义成int类型，就会报错
+        -->
+    </data>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@{name}"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@{age}" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="toChange"
+        android:text="更改"/>
+
+
+</LinearLayout>
+
+</layout>
