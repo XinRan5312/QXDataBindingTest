@@ -13,6 +13,7 @@ import com.xinran.qxdatabinding.activites.IncludeLayoutActvity;
 import com.xinran.qxdatabinding.activites.ListDataActivity;
 import com.xinran.qxdatabinding.activites.ObservableActvity;
 import com.xinran.qxdatabinding.activites.ResoureActivity;
+import com.xinran.qxdatabinding.activites.ViewStubActvity;
 import com.xinran.qxdatabinding.activites.ViewWithIdActvity;
 
 
@@ -51,7 +52,7 @@ public class MainActivity extends BaseActivity implements OnClickListener{
     }
 
     public void openViewStub(View view) {
-
+          strartOneActivity(ViewStubActvity.class);
     }
 
     public void openDynamicVariables(View view) {

@@ -23,6 +23,7 @@
         <activity android:name=".activites.ResoureActivity"></activity>
         <activity android:name=".activites.ObservableActvity"></activity>
         <activity android:name=".activites.ViewWithIdActvity"></activity>
+        <activity android:name=".activites.ViewStubActvity"></activity>
 
     </application>
 
