@@ -8,7 +8,9 @@ import android.view.View;
 import android.view.View.OnClickListener;
 
 import com.xinran.qxdatabinding.activites.ASimpleActivity;
+import com.xinran.qxdatabinding.activites.AtrributeActvity;
 import com.xinran.qxdatabinding.activites.CustomBindingActvity;
+import com.xinran.qxdatabinding.activites.DynamicActvity;
 import com.xinran.qxdatabinding.activites.IncludeLayoutActvity;
 import com.xinran.qxdatabinding.activites.ListDataActivity;
 import com.xinran.qxdatabinding.activites.ObservableActvity;
@@ -56,10 +58,11 @@ public class MainActivity extends BaseActivity implements OnClickListener{
     }
 
     public void openDynamicVariables(View view) {
+        strartOneActivity(DynamicActvity.class);
     }
 
     public void openAttributeSetters(View view) {
-
+        strartOneActivity(AtrributeActvity.class);
     }
 
     public void openConverters(View view) {

@@ -1,0 +1,273 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+   <color name="red_1">#FF4081</color>
+    <color name="yello_1">#f29800</color>
+    <color name="color_primary">#3F51B5</color>
+    <color name="color_primary_dark">#343490</color>
+    <color name="color_accent">#FF4081</color>
+    <color name="color_title_bar_background">#343490</color>
+    <color name="color_title_bar_text">#FFFFFF</color>
+    <color name="color_common_ui_bg">#FFFFFF</color>
+    <color name="color_time_remain_cutdown_text_color">#f29836</color>
+    <color name="common_background_color">#F8F8F8</color>
+    <color name="common_vcode_text_color">#FC646A</color>
+    <color name="common_input_devider_color">#DCDCDC</color>
+    <color name="common_input_input_background_color">#FFFFFF</color>
+    <color name="common_input_input_text_color">#323232</color>
+    <color name="common_input_input_hint_color">#CFCFCF</color>
+    <color name="common_big_button_text_color">#FFFFFF</color>
+    <color name="common_big_input_container_color">#FFFFFF</color>
+    <color name="common_list_item_devider">#F8F8F8</color>
+    <color name="common_tab_entry_color">#333092</color>
+    <color name="common_redbag_hint_text_color">#fc646a</color>
+    <!--                手势密码页面      -->
+    <color name="common_gesture_locker_background">#ffffff</color>
+    <color name="common_gesture_locker_default_color">#C3ACAD</color>
+    <color name="common_gesture_locker_error_color">#FF2525</color>
+    <color name="common_gesture_locker_success_color">#333092</color>
+
+    <!--                协议          -->
+    <color name="common_agreements_hint_text_color">#999999</color>
+    <color name="common_agreements_text_color">#333092</color>
+    <!--                       主页相关颜色设置                          -->
+    <color name="aty_tab_text_checked_false">#999999</color>
+    <color name="aty_tab_text_checked_true">#ED1B23</color>
+    <color name="aty_tab_bg_color">#FFFFFF</color>
+    <color name="aty_tab_divider_bg_color">#D8D8D8</color>
+
+    <!-- 首页颜色值 -->
+    <color name="frg_recommand_textcolor">#666666</color>
+    <color name="frg_recommand_list_item_title_textcolor">#3D3B69</color>
+    <color name="frg_recommand_list_item_interest_textcolor">#ED1B23</color>
+    <color name="frg_recommand_list_item_detail_textcolor">#999999</color>
+    <color name="frg_recommand_list_item_btn_color">#a1a1a1</color>
+
+    <!-- 投资页面颜色值 -->
+    <color name="frg_invest_tab_checked_true_textcolor">#333092</color>
+    <color name="frg_invest_tab_checked_false_textcolor">#999999</color>
+    <color name="frg_invest_item_title_textcolor">#3D3B69</color>
+    <color name="frg_invest_item_interest_textcolor">#ED1B23</color>
+    <color name="frg_invest_background">#F8F8F8</color>
+    <color name="aty_invest_background_alpha">#66000000</color>
+    <color name="frg_invest_item_remark_textcolor">#999999</color>
+    <color name="frg_invest_item_detail_textcolor">#333333</color>
+    <color name="frg_invest_item_progress_text_color">#95D165</color>
+    <!--                    更多页面                -->
+    <color name="frg_more_background">#F8F8F8</color>
+    <color name="frg_more_divider_small_bg">#EBEBEB</color>
+    <color name="frg_more_account_hint_text_color">#999999</color>
+    <color name="frg_more_account_text_color">#333333</color>
+    <color name="frg_more_account_logout_btn_text_color">#999999</color>
+    <color name="frg_more_item_account_text_color">#333333</color>
+    <color name="frg_more_item_version_text_color">#C2C2C2</color>
+    <color name="frg_more_item_bank_card_state_unbind_color">#FC646A</color>
+    <color name="frg_more_item_bank_card_state_bind_color">#999999</color>
+    <!--                       登录页面                    -->
+    <color name="aty_login_register_im_text_color">#FC646A</color>
+    <color name="aty_login_pwd_text_color">#333333</color>
+
+
+    <!--                        注册页面                    -->
+    <color name="aty_register_bg_color">#F8F8F8</color>
+    <color name="aty_register_login_im_text_color">#FC646A</color>
+    <color name="aty_register_has_account_text_color">#999999</color>
+
+
+    <!--                        注册协议页面              -->
+    <color name="activity_agreements_text_color">#ff404040</color>
+
+
+    <!--                                标详情页面                         -->
+    <color name="aty_invest_detail_interest_hint_color">#999999</color>
+    <color name="aty_invest_detail_interest_text_color">#ED1B23</color>
+    <color name="aty_invest_detail_progress_text_color">#95D165</color>
+    <color name="aty_invest_detail_details_text_color">#666666</color>
+    <color name="aty_invest_detail_input_background_color_unable">#ffffff</color>
+    <color name="aty_invest_detail_input_text_color">#333333</color>
+    <color name="aty_invest_detail_input_text_color_hint">#cfcfcf</color>
+    <color name="aty_invest_detail_input_container_bg">#F8F8F8</color>
+    <color name="aty_invest_detail_invest_hint_text_color">#999999</color>
+    <color name="frg_invest_detail_tab_checked_false_textcolor">#666666</color>
+    <color name="frg_invest_record_title_text_colot">#333333</color>
+    <color name="item_setting_view_text_color">#333333</color>
+    <!--                            我的账户            -->
+    <color name="frg_mine_item_account_text_color">#333333</color>
+    <color name="frg_mine_autho_hint_text_color">#D76279</color>
+    <color name="frg_mine_autho_text_color">#D76279</color>
+    <color name="frg_mine_autho_background_color">#5757A4</color>
+    <color name="frg_mine_background_color">#333092</color>
+    <color name="frg_mine_total_money_text_color">#ffffff</color>
+    <color name="frg_mine_money_divider_color">#343198</color>
+    <color name="frg_mine_money_text_color">#ffffff</color>
+    <color name="frg_mine_bg_color">#EBEBEB</color>
+
+
+
+    <!--                            身份认证                -->
+    <color name="aty_authen_bg_color">#F8F8F8</color>
+    <color name="aty_authen_text_hint_color">#000000</color>
+    <color name="aty_authen_edit_text_hint_color">#cfcfcf</color>
+
+
+    <!--                            投资确认页面              -->
+    <color name="aty_invest_confirm_title_text_color">#333333</color>
+    <color name="aty_invest_confirm_interest_text_color">#ED1B23</color>
+    <color name="aty_invest_confirm_interest_hint_text_color">#999999</color>
+    <color name="aty_invest_confirm_term_text_color">#ED1B23</color>
+    <color name="aty_invest_confirm_item_background_color">#ffffff</color>
+    <color name="aty_invest_confirm_item_row_hint">#333333</color>
+    <color name="aty_invest_confirm_item_row_divider">#f1f1f1</color>
+    <color name="aty_invest_confirm_item_red_envelope_none">#333333</color>
+    <color name="aty_invest_confirm_item_value_text_color">#ED1B23</color>
+    <color name="aty_invest_confirm_charge_background">#F8F8F8</color>
+    <color name="aty_invest_confirm_charge_text_color">#ff461e</color>
+    <color name="aty_invest_confirm_btn_container_background">#ffffff</color>
+
+
+
+    <!--                        充值界面                -->
+    <color name="aty_charge_money_remain_hint_text_color">#999999</color>
+    <color name="aty_charge_money_remain_text_color">#fc646a</color>
+    <color name="aty_charge_money_btn_container_background">#F8F8F8</color>
+    <color name="aty_charge_count_hint_text_color">#999999</color>
+    <color name="aty_charge_warning_text_color">#999999</color>
+
+    <!--                        我的红包页面          -->
+    <color name="item_red_envelope_container_background">#F1F1F1</color>
+    <color name="aty_red_envelope_container_background">#F1F1F1</color>
+    <color name="aty_red_envelope_time_hint_text_color">#949494</color>
+    <color name="item_red_envelope_title_enable_text_color">#FC646A</color>
+    <color name="item_red_envelope_title_unable_text_color">#d2d2d2</color>
+    <color name="item_red_envelope_unit_text_color">#ffffff</color>
+    <color name="frg_red_envelope_rules_text_color">#FC646A</color>
+
+
+    <!--                       找回密码页面  -->
+    <color name="aty_find_pwd_background">#F8F8F8</color>
+
+    <!--                        验证信息页面颜色                -->
+    <color name="aty_verify_info_vcode_has_got_hint_text_color">#75767b</color>
+    <color name="aty_verify_info_key_info_hint_text_color">#333334</color>
+
+    <!--                                       我的投资记录                   -->
+    <color name="aty_invest_record_background">#f8f8f8</color>
+    <color name="aty_invest_record_item_title_text_color">#555555</color>
+    <color name="aty_invest_record_item_content_text_color">#323232</color>
+    <color name="aty_invest_record_item_left_title_text_color">#999999</color>
+
+
+    <!--                        密码管理                    -->
+    <color name="aty_pwd_manager_background">#F8F8F8</color>
+    <color name="aty_pwd_manager_item_text_color">#555555</color>
+    <color name="aty_pwd_manager_item_divider_background_color">#DCE5EB</color>
+
+    <!--                系统公告            -->
+    <color name="aty_company_notice_bg">#F8F8F8</color>
+    <color name="aty_company_notice_item_text_color">#000000</color>
+
+    <!--                      popupwindow红包列表            -->
+    <color name="popup_window_red_envelope_item_trans">#00000000</color>
+    <color name="popup_window_red_envelope_item_text_color">#1E82FF</color>
+    <color name="popup_window_red_envelope_item_divider">#EBEBEB</color>
+
+    <!--                修改密码            -->
+    <color name="aty_change_pwd_hint_text_color">#333334</color>
+
+
+    <!--                消息详情            -->
+    <color name="aty_personal_msg_item_text_color">#666666</color>
+    <color name="aty_personal_msg_bg_color">#F8F8F8</color>
+
+    <!--                资金流水页面                  -->
+    <color name="aty_fund_record_title_container_text_color">#333333</color>
+    <color name="aty_fund_record_title_container_divider_color">#f1f1f1</color>
+    <color name="aty_fund_record_item_money_text_color">#333333</color>
+    <color name="aty_fund_record_item_time_text_color">#888888</color>
+    <color name="aty_fund_record_bg_color">#F8F8F8</color>
+
+    <!--                我的积分                -->
+    <color name="aty_mine_points_rules_hint_text_color">#a7a7ab</color>
+    <color name="aty_mine_points_header_view_divider">#F8F8F8</color>
+    <color name="aty_mine_points_header_hint_text_color">#999999</color>
+    <color name="aty_mine_points_header_avalizble_text_color">#ED1B23</color>
+    <color name="aty_mine_points_points_list_divider_color">#f1f1f1</color>
+    <color name="aty_mine_points_item_headview_list_text_color">#a7a7ab</color>
+    <color name="aty_mine_points_points_text_color_black">#323232</color>
+    <color name="aty_mine_points_item_time_text_color">#a7a7ab</color>
+    <color name="aty_mine_points_item_status_text_color">#a7a7ab</color>
+    <color name="aty_mine_points_item_amount_text_color">#fc646a</color>
+
+    <!--                积分商城                -->
+    <color name="aty_points_more_item_points_text_color">#fc646a</color>
+    <color name="aty_points_more_item_bg">#F8F8F8</color>
+
+    <!--                    转让详情                 -->
+    <color name="aty_transfer_detail_bg">#f8f8f8</color>
+    <color name="aty_transfer_detail_frg_item_hint_text_color">#A8A8A8</color>
+    <color name="aty_transfer_detail_frg_item_text_color">#333333</color>
+    <color name="aty_transfer_detail_frg_item_text_color_red">#ED1B23</color>
+    <color name="aty_transfer_detail_title_text_color">#999999</color>
+    <color name="aty_transfer_detail_interest_text_color">#ED1B23</color>
+    <color name="aty_transfer_detail_item_hint_text_color">#666666</color>
+
+    <!--                我的转让    -->
+    <color name="frg_avaliable_transfer_bg">#f8f8f8</color>
+    <color name="frg_mine_available_title_text_color">#888888</color>
+    <color name="item_avaliable_transfer_title_color">#555555</color>
+    <color name="item_avaliable_transfer_date_color">#C8C8C8</color>
+    <color name="item_avaliable_transfer_divider_color">#e0e0e0</color>
+    <color name="item_avaliable_transfer_data_text_color">#ED1B23</color>
+    <color name="item_avaliable_transfer_hint_text_color">#A8A8A8</color>
+    <color name="item_avaliable_transfer_btn_text_color">#FFFFFF</color>
+    <color name="item_subscribe_transfer_title_text_color">#555555</color>
+    <color name="item_subscribe_transfer_money_text_color">#555555</color>
+    <color name="item_subscribe_transfer_date_text_color">#C8C8C8</color>
+    <color name="item_record_transfer_title_text_color">#555555</color>
+    <color name="item_record_transfer_date_text_color">#C8C8C8</color>
+    <color name="item_record_transfer_btn_status_text_color">#FFFFFF</color>
+    <color name="item_record_transfer_btn_cancel_text_color">#FC646A</color>
+
+
+    <!--              转让申请                    -->
+    <color name="aty_transfer_apply_bg">#f8f8f8</color>
+    <color name="aty_transfer_apply_title_text_color">#333333</color>
+    <color name="aty_transfer_apply_total_text_color">#ED1B23</color>
+    <color name="aty_transfer_apply_hint_text_color">#999999</color>
+    <color name="aty_transfer_apply_money_text_color">#333333</color>
+
+
+    <!--        手势解锁页面           -->
+    <color name="aty_checkout_account_text_hint_color">#666666</color>
+    <color name="common_account_hint_normal_text_color">#666666</color>
+    <color name="common_account_hint_warning_text_color">#FF2525</color>
+    <!-- 设置手势密码页面-->
+    <color name="aty_set_gesture_password_hint_normal_text_color">#666666</color>
+    <color name="aty_set_gesture_password_hint_pressed_text_color">#44C0FF</color>
+    <color name="aty_set_gesture_password_hint_success_text_color">#00ff00</color>
+    <!--         我的邀请       -->
+    <color name="aty_invation_mine_bg">#F8F8F8</color>
+    <color name="aty_invation_mine_item_hint_text_color">#333333</color>
+    <color name="aty_invation_mine_item_money_text_color">#ED1B23</color>
+    <color name="aty_invation_mine_item_divider_color">#f1f1f1</color>
+
+    <!--         邀请好友列表       -->
+    <color name="aty_invation_list_mine_bg">#F8F8F8</color>
+    <color name="aty_invation_list_mine_text_color">#000000</color>
+    <color name="aty_invation_list_money_hint_text_color">#fc646a</color>
+
+
+    <!--    项目说明页面    -->
+    <color name="aty_msproject_instruction">#F8F8F8</color>
+    <color name="aty_msproject_instruction_item_text_color">#555555</color>
+
+
+    <!--    充值结果页  -->
+    <color name="aty_pay_result_title_text_color">#323232</color>
+    <color name="aty_pay_result_content_text_color">#5A5A5A</color>
+    <!--    交易密码相关  -->
+    <color name="pwd_input_devider_colo">#B3B3B3</color>
+    <!--    透明度 -->
+    <color name="transparent_color_00">#00000000</color>
+    <color name="transparent_color_30">#4D000000</color>
+    <color name="transparent_color_15">#26000000</color>
+</resources>

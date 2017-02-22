@@ -1,0 +1,43 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <import type="com.xinran.qxdatabinding.beans.Student"></import>
+
+        <variable
+            name="stu"
+            type="Student"></variable>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="@{stu.name}" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{stu.firstName}"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{String.valueOf(stu.age)}"
+            android:layout_alignParentRight="true"
+            android:gravity="center"/>
+
+
+    </RelativeLayout>
+
+</layout>

@@ -1,0 +1,17 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--  //在TabLayout类中声明app：后属性名字相同的后缀set方法就好
+    比如app:tvFirst就对应setTvFirst(String str)这个set方法-->
+<com.xinran.qxdatabinding.views.TabLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    app:tvFirst="@{@string/firstName}"
+    app:tvSecond="@{@string/lastName}"
+    app:tvSize="@dimen/text_big"
+    app:tvColor="@{@color/red_1}">
+
+</com.xinran.qxdatabinding.views.TabLayout>
+
+</layout>

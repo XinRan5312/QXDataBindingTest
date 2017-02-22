@@ -24,6 +24,8 @@
         <activity android:name=".activites.ObservableActvity"></activity>
         <activity android:name=".activites.ViewWithIdActvity"></activity>
         <activity android:name=".activites.ViewStubActvity"></activity>
+        <activity android:name=".activites.DynamicActvity"></activity>
+        <activity android:name=".activites.AtrributeActvity"></activity>
 
     </application>
 
